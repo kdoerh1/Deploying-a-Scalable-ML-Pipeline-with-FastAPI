@@ -3,7 +3,7 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-The model details
+The version on this model is 1.0. 
 ## Intended Use
 
 ## Training Data
