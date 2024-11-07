@@ -1,28 +1,23 @@
 import pytest
-# TODO: add necessary import
 
-# TODO: implement the first test. Change the function name and input as needed
-def test_one():
+def test_1():
     """
-    # add description for the first test
+    This test is to make sure 5 times 5 = 25
     """
-    # Your code here
-    pass
+    assert 5*5==25
+    
 
-
-# TODO: implement the second test. Change the function name and input as needed
-def test_two():
+def test_2():
     """
-    # add description for the second test
+    This test is to make sure the .upper() function works
     """
-    # Your code here
-    pass
+    assert "yummy".upper()=='YUMMY'
+    
 
 
-# TODO: implement the third test. Change the function name and input as needed
-def test_three():
+def test_3():
     """
-    # add description for the third test
+    This test is to make sure the length function works
     """
-    # Your code here
-    pass
+    assert len("yummy") ==5
+    
