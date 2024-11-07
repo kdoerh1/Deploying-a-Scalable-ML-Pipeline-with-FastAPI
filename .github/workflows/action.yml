@@ -19,6 +19,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         conda env update --file environment.yml --name base
+        conda init
         conda activate base
     - name: Lint with flake8
       run: |
